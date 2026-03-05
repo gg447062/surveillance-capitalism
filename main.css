@@ -34,17 +34,17 @@ h2 {
   color: var(--azul);
 }
 
+ul {
+  list-style-type: none;
+}
+
 li {
   margin-bottom: 0.5em;
 }
 
-/* li b {
+p b {
   color: var(--azul);
-} */
-
-/* li::marker {
-  color: var(--azul);
-} */
+}
 
 .hide-text {
   display: none;

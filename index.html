@@ -5,188 +5,208 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <h1>who is watching you browse?</h1>
-    <h2>What is Fingerprinting?</h2>
-    <p>
-      Every time you visit a website, your browser quietly hands over dozens of
-      tiny details about your device: your screen size, the fonts you have
-      installed, your time zone, your browser version, and much more.
-      Individually, these details seem harmless. Together, they form a unique
-      picture of your device, a "fingerprint," that can identify you across the
-      web without you ever knowing.
-    </p>
-    <p>
-      This is called digital fingerprinting, and it is one of the most powerful
-      tracking tools in use today. Unlike cookies, it requires no consent,
-      leaves no trace you can delete, and works even if you use incognito mode.
-      Tracking companies use it to follow users across websites, target them
-      with ads, and sell that data to brokers. Digital advertising is a business
-      worth hundreds of billions of dollars, and your fingerprint is part of
-      what fuels it.
-    </p>
-    <h2>How it works:</h2>
-    <p>
-      Fingerprinting comes in two main forms. Browser fingerprinting collects
-      information through your browser when you visit a site. Device
-      fingerprinting collects it through apps installed on your device. In both
-      cases, the process happens silently in the background, without any
-      notification or opt-in.
-    </p>
-    <!--  -->
-    <h2>Top third-party web domains</h2>
-    <p>
-      When you visit a website, you are rarely just talking to that one site.
-      Most pages secretly load dozens of outside entities in the background,
-      without you ever seeing them. These are called third-party trackers, and
-      they follow you from site to site, building a detailed profile of your
-      behavior and your interests.
-    </p>
-    <p>
-      This dataset, built by DuckDuckGo, maps exactly who those hidden guests
-      are. It tracks the most common third-party domains across the web, and
-      records how they behave: how many sites they appear on, whether they use
-      fingerprinting, whether they drop cookies, and who owns them.
-    </p>
-    <p>
-      The chart below shows the top entities by prevalence, meaning the share of
-      websites across the internet where at least one of their domains was
-      detected. The higher the prevalence, the harder it is to avoid them. The
-      fingerprinting score (0 to 3) shows how aggressively each entity tracks
-      users beyond cookies.
-    </p>
-    <!--  -->
-    <!-- <div>
-      <p class="text-title" data-num="1">text</p>
-      <p class="hide-text" id="p-1">should be hidden on load</p>
-    </div> -->
-    <div
-      class="flourish-embed flourish-survey"
-      data-src="visualisation/27882019"
-      data-width="50vw"
-    >
-      <script src="https://public.flourish.studio/resources/embed.js"></script>
-      <noscript
-        ><img
-          src="https://public.flourish.studio/visualisation/27882019/thumbnail"
-          width="100vw"
-          alt="survey visualization"
-      /></noscript>
-    </div>
-    <h2>Why Google deserves its own chart</h2>
+    <main>
+      <h1>who is watching you browse?</h1>
+      <div class="wrapper">
+        <h2>What is Fingerprinting?</h2>
+        <p>
+          Every time you visit a website, your browser quietly hands over dozens
+          of tiny details about your device: your screen size, the fonts you
+          have installed, your time zone, your browser version, and much more.
+          Individually, these details seem harmless. Together, they form a
+          unique picture of your device, a "fingerprint," that can identify you
+          across the web without you ever knowing.
+        </p>
+        <p>
+          This is called digital fingerprinting, and it is one of the most
+          powerful tracking tools in use today. Unlike cookies, it requires no
+          consent, leaves no trace you can delete, and works even if you use
+          incognito mode. Tracking companies use it to follow users across
+          websites, target them with ads, and sell that data to brokers. Digital
+          advertising is a business worth hundreds of billions of dollars, and
+          your fingerprint is part of what fuels it.
+        </p>
+      </div>
 
-    <p>
-      When we looked at the full picture, one name stood so far above the rest
-      that it changed the scale of everything else. Google appears on 67% of all
-      websites crawled in this dataset. That means roughly two out of every
-      three pages you visit are quietly reporting back to Google, regardless of
-      whether you use any Google product or ever clicked on a Google ad.
-    </p>
+      <div class="wrapper">
+        <h2>How it works:</h2>
+        <p>
+          Fingerprinting comes in two main forms. Browser fingerprinting
+          collects information through your browser when you visit a site.
+          Device fingerprinting collects it through apps installed on your
+          device. In both cases, the process happens silently in the background,
+          without any notification or opt-in.
+        </p>
+      </div>
 
-    <p>
-      Google also scores a 3 out of 3 on fingerprinting, the maximum level. (If
-      *any* of an owner's domains scores a 3, it scores a 3. The logic being:
-      the worst behavior defines how invasive they are.) It is not just the most
-      widespread tracker on the web. It is also one of the most invasive.
-    </p>
-    <p>
-      To understand the scale of how Google operates, we pulled its domains out
-      separately. The chart below shows the individual Google-owned domains that
-      appear across the web, and what each one does. Some are familiar (Google
-      Fonts, YouTube). Others are invisible infrastructure built entirely for
-      tracking and advertising. Together, they form a surveillance network
-      embedded into the web itself.
-    </p>
+      <!--  -->
+      <div class="wrapper">
+        <h2>Top third-party web domains</h2>
+        <p>
+          When you visit a website, you are rarely just talking to that one
+          site. Most pages secretly load dozens of outside entities in the
+          background, without you ever seeing them. These are called third-party
+          trackers, and they follow you from site to site, building a detailed
+          profile of your behavior and your interests.
+        </p>
+        <p>
+          This dataset, built by DuckDuckGo, maps exactly who those hidden
+          guests are. It tracks the most common third-party domains across the
+          web, and records how they behave: how many sites they appear on,
+          whether they use fingerprinting, whether they drop cookies, and who
+          owns them.
+        </p>
+        <p>
+          The chart below shows the top entities by prevalence, meaning the
+          share of websites across the internet where at least one of their
+          domains was detected. The higher the prevalence, the harder it is to
+          avoid them. The fingerprinting score (0 to 3) shows how aggressively
+          each entity tracks users beyond cookies.
+        </p>
+      </div>
+      <!--  -->
 
-    <div
-      class="flourish-embed flourish-bubble-chart"
-      data-src="visualisation/27882850"
-    >
-      <script src="https://public.flourish.studio/resources/embed.js"></script>
-      <noscript
-        ><img
-          src="https://public.flourish.studio/visualisation/27882850/thumbnail"
-          width="100%"
-          alt="bubble-chart visualization"
-      /></noscript>
-    </div>
-    <!--  -->
-    <h2>The indices measured are:</h2>
-    <ul>
-      <li>
-        <b>Prevalence:</b> how much of the web this domain appears on. A
-        prevalence of 0.9 means it shows up on 90% of websites you visit. Google
-        fonts, for example, is basically everywhere.
-      </li>
-      <li>
-        <b>Fingerprinting:</b> a sneaky tracking technique that doesn't use
-        cookies. Instead it identifies your browser by tiny details (screen
-        size, fonts installed, etc.) to recognize you across sites. Scored 0–3,
-        higher = more aggressive.
-      </li>
-      <li>
-        <b>Cookies: </b> the classic tracking method. How many cookies this
-        domain drops on your browser.
-      </li>
-      <li>
-        <b>Owner/Entity:</b>the parent company. Dozens of different-looking
-        domains often belong to the same giant (e.g. Google owns hundreds of
-        tracking domains).
-      </li>
-
-      <li>
-        <b>Categories</b>: what the domain is *for*: Advertising, Analytics,
-        Social, CDN, etc.
-      </li>
-
-      <li>
-        <b>Sites</b>: The raw number of websites this domain was found on.
-      </li>
-    </ul>
-    <!--  -->
-
-    <h2>What can you do about it?</h2>
-
-    <p>
-      Fingerprinting is hard to escape, but not impossible to fight back
-      against. Using a privacy-focused browser like Firefox or Tor, installing
-      tracker-blocking extensions, and avoiding unnecessary apps are all steps
-      that make it harder to be fingerprinted. The Electronic Frontier
-      Foundation has put together a practical guide on counter-fingerprinting
-      strategies that is worth reading no matter how technical you are. You can
-      find it
-      <a
-        href="https://ssd.eff.org/module/what-fingerprinting#counter-fingerprinting-strategies"
-        target="_blank"
-        >here</a
+      <div
+        class="flourish-embed flourish-survey"
+        data-src="visualisation/27882019"
+        data-width="50vw"
       >
-    </p>
-    <h2>References:</h2>
-    <p>The description offered by the creator of the dataset:</p>
-    <p>
-      “This is not a block list, but a data set of the most common third party
-      domains on the web with information about their behavior, classification
-      and ownership. It allows for easy custom solutions with the significant
-      metadata it has for each domain: parent entity, prevalence, use of
-      fingerprinting, cookies, privacy policy, and performance. The data on
-      individual domains can be found in the
-      <a
-        href="https://github.com/duckduckgo/tracker-radar/blob/main/domains"
-        target="_blank"
-        >domains
-      </a>
-      directory.”
-    </p>
-    <h3>
-      <a href="https://github.com/duckduckgo/tracker-radar" target="_blank"
-        >Main Dataset</a
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
+        <noscript
+          ><img
+            src="https://public.flourish.studio/visualisation/27882019/thumbnail"
+            width="100vw"
+            alt="survey visualization"
+        /></noscript>
+      </div>
+
+      <div class="wrapper">
+        <h2>Why Google deserves its own chart</h2>
+
+        <p>
+          When we looked at the full picture, one name stood so far above the
+          rest that it changed the scale of everything else. Google appears on
+          67% of all websites crawled in this dataset. That means roughly two
+          out of every three pages you visit are quietly reporting back to
+          Google, regardless of whether you use any Google product or ever
+          clicked on a Google ad.
+        </p>
+
+        <p>
+          Google also scores a 3 out of 3 on fingerprinting, the maximum level.
+          (If *any* of an owner's domains scores a 3, it scores a 3. The logic
+          being: the worst behavior defines how invasive they are.) It is not
+          just the most widespread tracker on the web. It is also one of the
+          most invasive.
+        </p>
+        <p>
+          To understand the scale of how Google operates, we pulled its domains
+          out separately. The chart below shows the individual Google-owned
+          domains that appear across the web, and what each one does. Some are
+          familiar (Google Fonts, YouTube). Others are invisible infrastructure
+          built entirely for tracking and advertising. Together, they form a
+          surveillance network embedded into the web itself.
+        </p>
+      </div>
+      <div
+        class="flourish-embed flourish-bubble-chart"
+        data-src="visualisation/27882850"
       >
-    </h3>
-    <p>
-      Definition of fingerprinting:
-      <a href="https://ssd.eff.org/module/what-fingerprinting" target="_blank"
-        >What Is Fingerprinting?</a
-      >
-    </p>
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
+        <noscript
+          ><img
+            src="https://public.flourish.studio/visualisation/27882850/thumbnail"
+            width="100%"
+            alt="bubble-chart visualization"
+        /></noscript>
+      </div>
+      <!--  -->
+      <div class="wrapper">
+        <h2>The indices measured are:</h2>
+        <ul>
+          <li>
+            <b>Prevalence:</b> how much of the web this domain appears on. A
+            prevalence of 0.9 means it shows up on 90% of websites you visit.
+            Google fonts, for example, is basically everywhere.
+          </li>
+          <li>
+            <b>Fingerprinting:</b> a sneaky tracking technique that doesn't use
+            cookies. Instead it identifies your browser by tiny details (screen
+            size, fonts installed, etc.) to recognize you across sites. Scored
+            0–3, higher = more aggressive.
+          </li>
+          <li>
+            <b>Cookies: </b> the classic tracking method. How many cookies this
+            domain drops on your browser.
+          </li>
+          <li>
+            <b>Owner/Entity: </b>the parent company. Dozens of different-looking
+            domains often belong to the same giant (e.g. Google owns hundreds of
+            tracking domains).
+          </li>
+
+          <li>
+            <b>Categories</b>: what the domain is *for*: Advertising, Analytics,
+            Social, CDN, etc.
+          </li>
+
+          <li>
+            <b>Sites</b>: The raw number of websites this domain was found on.
+          </li>
+        </ul>
+      </div>
+      <!--  -->
+      <div class="wrapper">
+        <h2>What can you do about it?</h2>
+
+        <p>
+          Fingerprinting is hard to escape, but not impossible to fight back
+          against. Using a privacy-focused browser like Firefox or Tor,
+          installing tracker-blocking extensions, and avoiding unnecessary apps
+          are all steps that make it harder to be fingerprinted. The Electronic
+          Frontier Foundation has put together a practical guide on
+          counter-fingerprinting strategies that is worth reading no matter how
+          technical you are. You can find it
+          <a
+            href="https://ssd.eff.org/module/what-fingerprinting#counter-fingerprinting-strategies"
+            target="_blank"
+            >here</a
+          >
+        </p>
+      </div>
+
+      <div>
+        <h2>References:</h2>
+        <p>The description offered by the creator of the dataset:</p>
+        <p>
+          “This is not a block list, but a data set of the most common third
+          party domains on the web with information about their behavior,
+          classification and ownership. It allows for easy custom solutions with
+          the significant metadata it has for each domain: parent entity,
+          prevalence, use of fingerprinting, cookies, privacy policy, and
+          performance. The data on individual domains can be found in the
+          <a
+            href="https://github.com/duckduckgo/tracker-radar/blob/main/domains"
+            target="_blank"
+            >domains
+          </a>
+          directory.”
+        </p>
+        <h3>
+          <a href="https://github.com/duckduckgo/tracker-radar" target="_blank"
+            >Main Dataset</a
+          >
+        </h3>
+        <p>
+          Definition of fingerprinting:
+          <a
+            href="https://ssd.eff.org/module/what-fingerprinting"
+            target="_blank"
+            >What Is Fingerprinting?</a
+          >
+        </p>
+      </div>
+    </main>
     <script>
       let texts = Array.from(document.querySelectorAll('p.text-title'));
       texts.forEach((t) => {

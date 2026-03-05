@@ -1,13 +1,33 @@
-body {
-  min-height: 100vh;
-  min-width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+:root {
+  --fondo: #bab497;
+  --verde: #809868;
+  --azul: #0202ff;
+  --naranja: #db8b3f;
+  --rojo: #db3c28;
 }
 
-#center {
-  border: 2px solid yellowgreen;
-  padding: 1em;
+body {
+  min-height: 100vh;
+  max-width: 100vw;
+  background-color: var(--fondo);
+  color: var(--azul);
+  margin: 5% 25%;
+}
+
+h2,
+h3 {
+  text-align: left;
+}
+
+.hide-text {
+  display: none;
+}
+
+.show-text {
+  display: block;
+}
+
+.flourish-embed {
+  border: 1px solid var(--azul);
+  background-color: white;
 }

@@ -8,6 +8,7 @@
   <body>
     <main>
       <h1>who is watching you browse?</h1>
+      <img src="ads.jpg" />
       <div class="wrapper">
         <h2>What is Fingerprinting?</h2>
         <p>
@@ -224,7 +225,7 @@
           >
         </h3>
         <p>
-          Definition of fingerprinting:
+          For more information on fingerprinting:
           <a
             href="https://ssd.eff.org/module/what-fingerprinting"
             target="_blank"
@@ -234,23 +235,5 @@
         </p>
       </div>
     </main>
-    <script>
-      let texts = Array.from(document.querySelectorAll('p.text-title'));
-      texts.forEach((t) => {
-        t.addEventListener('click', toggleText);
-      });
-
-      function toggleText(e) {
-        let num = e.target.dataset.num;
-        let p = document.querySelector(`p#p-${num}`);
-        if (p.classList.contains('show-text')) {
-          p.classList.remove('show-text');
-        } else {
-          p.classList.add('show-text');
-        }
-
-        console.log(p);
-      }
-    </script>
   </body>
 </html>
